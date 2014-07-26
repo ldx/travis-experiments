@@ -5,4 +5,4 @@ env:
 before_script:
 - "curl https://gist.githubusercontent.com/santiycr/4683e262467c0a84d857/raw/1254ace59257e341ab200cbc8946e626756f079f/sauce-connect.sh | bash"
 script:
-- "echo 'it's working'"
+- "echo 'it\'s working'"
