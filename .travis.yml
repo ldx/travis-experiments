@@ -1,0 +1,8 @@
+env:
+  global:
+  - secure: HiBp8QMRf/t6vYYFRkxeDUdn7vOZSRdY8ER9IKmjq6kbmJxW8sj2T+bIwyU1eupHCfNEbGkxsu4ZgTuMR3q8jta/EMDkqjV4uml7UYdh1ToDVWnJgGlIS8HJwE0xhsmRFHeQAcKb/wikQMC9pX7Ome7+AVo03dnN463uCT1D668=
+  - secure: fO7U9jsohXDC5ZOUHJdaDBZ6KBoANTKFs6fvzg1VbCzafwOTngvkmNfL/L3utSiCTfVoTkTlYgmuWPgwOlWw6Oo3xvhMW1AhREx++OhZh0W8BUYtdZhzmk2iBdnEsQqkmHv5kNiykxpSns+n8cSiwOf8kn5iZFNNu+/uITQcPyc=
+before_script:
+- "curl https://gist.githubusercontent.com/santiycr/4683e262467c0a84d857/raw/1254ace59257e341ab200cbc8946e626756f079f/sauce-connect.sh | sh"
+script:
+- "echo 'it's working'"
