@@ -6,6 +6,8 @@ env:
 before_script:
   - cat /etc/hosts
   - cat /etc/resolv.conf
+  - host saucelabs.com 199.91.168.70
+  - host saucelabs.com 199.91.168.71
   - "curl https://gist.githubusercontent.com/ldx/2a333f8833521ef89b5f/raw/051d98159672c57dcc7d755d57f9760654ce6870/sauce-connect.sh | bash"
 script:
   - "echo hello world"
