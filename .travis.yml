@@ -5,5 +5,7 @@ env:
     - secure: SsVusjnak1qjnj8aqFaeoNwlY1fe2gMOWiN0uHl6EtQwQwRcJopvhWEtS/vCFYuldcTC4tAM82VGU4sj+Z3fUJXte1FX6mj007T4tliCtqyEv6fIlsmZeqUhsDntw18S94tZnPPz4h1D0rQlyIangmNtKeVb8jELCeKnwEGOlkU=
 before_script:
   - "curl https://gist.githubusercontent.com/santiycr/4683e262467c0a84d857/raw/1254ace59257e341ab200cbc8946e626756f079f/sauce-connect.sh | bash"
+  - cat /etc/hosts
+  - cat /etc/resolv.conf
 script:
   - "echo hello world"
