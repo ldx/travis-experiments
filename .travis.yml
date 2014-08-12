@@ -6,6 +6,8 @@ env:
 before_script:
   - cat /etc/hosts
   - cat /etc/resolv.conf
-  - "curl https://gist.githubusercontent.com/santiycr/4683e262467c0a84d857/raw/1254ace59257e341ab200cbc8946e626756f079f/sauce-connect.sh | bash"
+  - "curl https://gist.githubusercontent.com/ldx/2a333f8833521ef89b5f/raw/f8db730c98831c732b3925c8374b69800dbb1d23/sauce-connect.sh | bash"
 script:
   - "echo hello world"
+after_failure:
+  - cat $HOME/sauce-connect.log
