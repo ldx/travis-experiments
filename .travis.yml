@@ -6,6 +6,6 @@ env:
 before_script:
   - cat /etc/hosts
   - cat /etc/resolv.conf
-  - "curl https://gist.githubusercontent.com/ldx/2a333f8833521ef89b5f/raw/cf3376af81a5d8ea74338a469bbae69b46ca62e9/sauce-connect.sh | bash"
+  - "curl https://gist.githubusercontent.com/ldx/2a333f8833521ef89b5f/raw/051d98159672c57dcc7d755d57f9760654ce6870/sauce-connect.sh | bash"
 script:
   - "echo hello world"
